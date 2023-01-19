@@ -14,9 +14,13 @@ div[class^="col-off"]{
     line-height: 42px;
     /* height: 44px; */
     text-align: center;
+    flex-grow: 1;
 }
 
-
+.row-padding div[class^="col-"]{
+    background-color: chartreuse;
+    color: black;
+}
 
 .row{
     height: auto;
@@ -29,3 +33,7 @@ div[class^="col-off"]{
 .margin{
     margin-bottom: 24px;
 }
+
+/* .container{
+    height: 100vh;
+} */
